@@ -18,7 +18,7 @@ for i in range(x.size):
 
 m = (Exy - Ex*Ey)/(Exx - Ex**2)
 c =  (Exx*Ey - Ex*Exy)/(Exx - Ex**2)
-print(" the slop and intersect are:", m,"and", c)
+print(" the slop and intercept are:", m,"and", c)
 
 plt.plot(x, y, "ko")
 plt.xlabel("Frequency (Hz)")
